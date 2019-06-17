@@ -7,6 +7,7 @@ const links = [
   { href: "https://cv.moljac024.com", label: "CV" },
   { href: "https://github.com/moljac024", label: "Github" },
   { href: "https://twitter.com/moljac024", label: "Twitter" },
+  { href: "https://www.linkedin.com/in/moljac024/", label: "LinkedIn" },
 ]
 
 class Layout extends React.Component {
