@@ -4,10 +4,14 @@ import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 
 const links = [
-  { href: "https://cv.moljac024.com", label: "CV" },
-  { href: "https://github.com/moljac024", label: "Github" },
-  { href: "https://twitter.com/moljac024", label: "Twitter" },
-  { href: "https://www.linkedin.com/in/moljac024/", label: "LinkedIn" },
+  { href: "https://cv.moljac024.com", label: "CV", external: true },
+  { href: "https://github.com/moljac024", label: "Github", external: true },
+  { href: "https://twitter.com/moljac024", label: "Twitter", external: true },
+  {
+    href: "https://www.linkedin.com/in/moljac024/",
+    label: "LinkedIn",
+    external: true,
+  },
 ]
 
 class Layout extends React.Component {
@@ -74,11 +78,15 @@ class Layout extends React.Component {
         <main style={{ flexGrow: 1 }}>{children}</main>
         <footer>
           <div>
-            {links.map(({ href, label }, i) => {
+            {links.map(({ href, label, external = false }, i) => {
               const isLast = i === links.length - 1
+              const props = {
+                href,
+                target: external ? "_blank" : undefined,
+              }
               return (
                 <>
-                  <a href={href}>{label}</a>
+                  <a {...props}>{label}</a>
                   {!isLast && <span> &bull; </span>}
                 </>
               )
