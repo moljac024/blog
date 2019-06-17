@@ -3,6 +3,12 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+const links = [
+  { href: "https://cv.moljac024.com", label: "CV" },
+  { href: "https://github.com/moljac024", label: "Github" },
+  { href: "https://twitter.com/moljac024", label: "Twitter" },
+]
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -54,6 +60,9 @@ class Layout extends React.Component {
     return (
       <div
         style={{
+          display: "flex",
+          minHeight: "100vh",
+          flexDirection: "column",
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),
@@ -61,11 +70,19 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
-        <main>{children}</main>
+        <main style={{ flexGrow: 1 }}>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <div>
+            {links.map(({ href, label }, i) => {
+              const isLast = i === links.length - 1
+              return (
+                <>
+                  <a href={href}>{label}</a>
+                  {!isLast && <span> &bull; </span>}
+                </>
+              )
+            })}
+          </div>
         </footer>
       </div>
     )

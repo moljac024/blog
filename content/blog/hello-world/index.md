@@ -1,21 +1,22 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+description: Hello world and bon apetit!
+date: "2019-06-17 08:36:01"
 ---
 
-This is my first post on my new fake blog! How exciting!
+This is my first post on my new blog! How exciting!
 
 I'm sure I'll write a lot more interesting things in the future.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+Oh, and here's a great quote from Wikipedia on
+[crepes](https://en.wikipedia.org/wiki/Cr%C3%AApe).
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+> A crêpe or crepe is a type of very thin pancake. Crêpes are usually of two
+> types: sweet crêpes (crêpes sucrées) and savoury galettes (crêpes salées).
+> Crêpes are served with a variety of fillings, from the simplest with only
+> sugar to flambéed crêpes Suzette or elaborate savoury galettes. While crêpes
+> are often associated with Brittany, a region in the northwest of France, their
+> consumption is widespread in France, Belgium, Canada, and many parts of
+> Europe, North Africa, Lebanon, and the Southern Cone of South America.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+![Crepe](./crepes.jpg)
