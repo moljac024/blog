@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "moljac024-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "moljac024's blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Bojan Matic <matic.bojan@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/moljac024/blog/issues"
   },
   "dependencies": {
     "gatsby": "^2.9.4",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://www.moljac024.com",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/moljac024/blog.git"
   },
   "scripts": {
     "build": "gatsby build",
