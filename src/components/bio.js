@@ -39,7 +39,7 @@ function Bio() {
             />
             <p>
               Personal blog by <strong>{author}</strong>.{` `}
-              <br />I like computers.
+              <br />I like computers. And crepes.
             </p>
           </div>
         )
